@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+:root{
+
+    --fontePrincipal_cor: white;
+
+
+}
+header{
+    width: 100vw;
+    height: 150px;
+    background: linear-gradient(to right,#3D5AFE, #2196F3 );
+    align-items: center;
+    flex-direction: column;
+    position: relative;   
+}
+
+.material-icons{
+    color: #2196F3;
+    font-size: 64px;
+}
+
+.icon{
+    width: 85px;
+    height: 85px;
+    border-radius: 100%;
+    background-color: var(--fontePrincipal_cor);
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -45px;
+}
+
+.flex{
+    display: flex;
+}
+
+.center{
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 2rem;
+    color: var(--fontePrincipal_cor);
+    font-family: var(--estilo_fonte);  
+}
+
+h2{
+    font-size: 0.8rem;
+    color: var(--fontePrincipal_cor);
+    font-family: var(--estilo_fonte);
+} 
+  
+section#box{
+    margin: 50px auto;
+    padding: 50x;
+}
+       
+#box{
+  
+    width: 350px;
+    height: auto;
+    background-color: #fff;
+   
+}
+
+label{
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 2px;
+}
+ 
+input{
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+
+.txt{
+    width: 100%;
+    height: 25px;
+}
+
+.botao{
+    width: 30vw;
+    color: var(--fontePrincipal_cor);
+    background-color: #2193F3;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 35px;
+}
+
+fieldset{
+    padding: 2px;
+    border: 2px solid black;
+    padding: 10px 30px 20px 30px;
+}
